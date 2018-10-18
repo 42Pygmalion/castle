@@ -1,10 +1,23 @@
 {
-  "name": "errand of a fool",
+  "name": "castle",
   "version": "1.0.0",
-  "description": "Parser",
+  "description": "",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/42Pygmalion/castle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/42Pygmalion/castle/issues"
+  },
+  "homepage": "https://github.com/42Pygmalion/castle#readme",
   "dependencies": {
-    "graceful-fs": "^4.1.11",
-    "npm": "^6.4.1"
+    "graceful-fs": "^4.1.11"
   }
 }
