@@ -41,7 +41,6 @@ function openDoor (res) {
     res.on('data', (chunk) => {
         var data = JSON.parse(chunk);
         while (data.rooms[i]) {
-       		console.log(data.rooms[i]);
         	if (wasNotVisited(data.rooms[i])) {
 	      		var request = http.request({host: 'castles.poulpi.fr', path: data.rooms[i]}, openDoor);
 	        	request.on('error', (e) => {
@@ -50,7 +49,6 @@ function openDoor (res) {
 				request.end();
 	        	justVisited(data.rooms[i]);
 			}
-        	// console.log('dd');
         	i++;
         }
         i = 0;
