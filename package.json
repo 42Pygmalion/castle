@@ -1,16 +1,10 @@
 {
-  "name": "post",
+  "name": "errand of a fool",
   "version": "1.0.0",
-  "description": "postevianform",
-  "main": "server.js",
+  "description": "Parser",
+  "main": "index.js",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
     "graceful-fs": "^4.1.11",
-    "mongodb": "^2.2.16",
     "npm": "^6.4.1"
-  },
-  "devDependencies": {
-    "nodemon": "^1.17.1"
   }
 }
