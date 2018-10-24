@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/42Pygmalion/castle#readme",
   "dependencies": {
-    "graceful-fs": "^4.1.11"
+    "graceful-fs": "^4.1.11",
+    "node": "^10.12.0",
+    "npm": "^6.4.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
   }
 }
